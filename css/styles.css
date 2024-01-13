@@ -1,4 +1,10 @@
 html {
-  background-color: #272334;
-  color: aquamarine;
+  background-color: #0a192f;
+  color: #ccd6f6;
+}
+
+* {
+  --text-title: #ccd6f6;
+  --text-second: #64ffda;
+  --text-total: #8892b0;
 }
