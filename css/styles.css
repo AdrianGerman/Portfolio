@@ -9,6 +9,7 @@
   --font-secondary: "Fira Code", monospace;
 
   --color-background: #0a192f;
+  --color-background-secondary: #0e2443;
 }
 
 * {
@@ -34,7 +35,7 @@ body {
   grid-template-rows: max-content auto max-content;
 }
 
-/* wrapper */
+/* presentation */
 .wrapper {
   grid-area: l-m;
 }
@@ -97,7 +98,37 @@ body {
   border-radius: 10px;
 }
 
-/* la imagen no esta bien adaptada, se modificara y esto se activara despues de */
 .shining:hover {
   box-shadow: var(--text-second) 10px 20px 30px;
+}
+
+/* about me */
+.about-me {
+  margin: auto;
+  margin: 50px auto auto auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-secondary);
+  margin-bottom: 200px; /* temporal */
+}
+
+h2 {
+  font-size: xx-large;
+}
+
+.information {
+  width: 48%;
+  background: var(--color-background-secondary);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.information p {
+  margin-top: 20px;
+  font-size: large;
+  line-height: 1.5rem;
+}
+
+.highlight {
+  color: var(--text-second);
 }
