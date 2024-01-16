@@ -56,7 +56,7 @@ body {
   color: var(--text-second);
 }
 
-.main .title-h1 {
+.title-h1 {
   font-size: 54px;
 }
 
@@ -98,11 +98,36 @@ body {
   border-radius: 10px;
 }
 
-.shining:hover {
+.shade:hover {
   box-shadow: var(--text-second) 10px 20px 30px;
 }
 
 /* about me */
+
+.about-center-me {
+  text-align: center;
+  font-family: var(--font-secondary);
+  margin-bottom: 140px;
+}
+
+.line-gradient {
+  border-bottom: 2px solid var(--text-second);
+  display: inline-block;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.about-center-me p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: large;
+}
+
+.line {
+  border-bottom: 2px solid var(--text-title);
+  display: inline-block;
+}
+
 .about-me {
   margin: auto;
   margin: 50px auto auto auto;
@@ -113,7 +138,12 @@ body {
 }
 
 h2 {
+  text-align: center;
   font-size: xx-large;
+}
+
+.about-me h2 {
+  font-size: 40px;
 }
 
 .information {
@@ -124,11 +154,51 @@ h2 {
 }
 
 .information p {
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: large;
   line-height: 1.5rem;
 }
 
 .highlight {
   color: var(--text-second);
+}
+
+/* line vertical */
+.line-vertical {
+  border-left: 2px solid var(--text-title);
+  height: 500px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/* technologies */
+.skills {
+  width: 48%;
+  padding: 20px;
+  background: var(--color-background-secondary);
+  border-radius: 10px;
+}
+
+.container-logos {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 115px 115px 115px;
+  margin-top: 40px;
+  margin-top: 0;
+  /* border-radius: 10px; */
+  padding: 20px 10px;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.skills div img {
+  height: 48px;
 }
