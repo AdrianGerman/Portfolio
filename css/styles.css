@@ -221,50 +221,47 @@ h2 {
 }
 
 .container-projects div h3 {
+  font-size: x-large;
+  color: var(--text-title);
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .container-projects div p {
+  font-size: large;
   margin-top: 15px;
 }
 
 .projects article {
-  transition: all 0.6s ease;
-  width: 80%;
+  width: 90%;
   display: flex;
   align-items: center;
   border-radius: 20px 0px 20px 0px;
-  background-color: var(--text-total);
-  margin-bottom: 60px;
+  /* background-color: var(--color-background-secondary); */
+  margin-bottom: 10rem;
 }
 
-.projects article:hover {
-  transform: translateY(-10px);
-}
-
-.projects article img {
-  /* transition: all 0.6s ease; */
+.project-img {
+  transition: all 0.6s ease;
   width: 600px;
   height: 400px;
   object-fit: cover;
-  border-radius: 20px 0 0 0;
+  border-radius: 20px;
 }
 
-/* .projects article:hover {
-  transform: translateY(
-    -10px
-  );
-} */
+.project-img:hover {
+  transform: translateY(-10px);
+}
 
 .projects article div:nth-child(2) {
-  background-color: var(--color-background-secondary);
-  padding: 15px 20px 15px 20px;
+  /* background-color: var(--color-background-secondary); */
+  padding: 15px 20px 15px 80px;
   color: var(--text-title);
 }
 
-.description {
-  border-radius: 0 0 20px 20px;
-}
+/* .description {
+  border-radius: 0 0 20px 20px; 
+} */
 
 .projects article div ul {
   list-style: none;
@@ -275,4 +272,14 @@ h2 {
 
 .projects article div li {
   margin: 0 20px 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-details ul li img {
+  margin-right: 6px;
+  margin-top: 15px;
+  width: 16px;
+  height: 16px;
 }
