@@ -228,34 +228,33 @@ h2 {
   margin-top: 15px;
 }
 
-article {
-  display: flex;
-  align-items: center; /* Alinea verticalmente los elementos al centro */
-}
-
 .projects article {
+  transition: all 0.6s ease;
   width: 80%;
+  display: flex;
+  align-items: center;
   border-radius: 20px 0px 20px 0px;
-  background-color: var(--color-background-secondary);
+  background-color: var(--text-total);
   margin-bottom: 60px;
 }
 
-.projects article h2 {
-  width: 100%;
+.projects article:hover {
+  transform: translateY(-10px);
 }
 
 .projects article img {
-  transition: all 0.6s ease;
+  /* transition: all 0.6s ease; */
   width: 600px;
   height: 400px;
   object-fit: cover;
   border-radius: 20px 0 0 0;
 }
 
-.projects article img:hover {
-  transition: all 0.6s ease;
-  filter: brightness(50%);
-}
+/* .projects article:hover {
+  transform: translateY(
+    -10px
+  );
+} */
 
 .projects article div:nth-child(2) {
   background-color: var(--color-background-secondary);
@@ -267,30 +266,11 @@ article {
   border-radius: 0 0 20px 20px;
 }
 
-.project-details {
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
-  align-items: center;
-}
-
 .projects article div ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   margin: 25px 0 25px 0;
-}
-
-.projects article div a {
-  display: block;
-}
-
-.projects article div a:hover {
-  transform: scale(1.05);
-}
-
-.projects article div svg {
-  fill: var(--color-background);
 }
 
 .projects article div li {
