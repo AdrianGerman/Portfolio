@@ -157,6 +157,14 @@ h2 {
   margin-top: 40px;
   font-size: large;
   line-height: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.information img {
+  width: 128px;
+  height: 128px;
+  display: block;
+  margin: auto;
 }
 
 .highlight {
@@ -166,7 +174,7 @@ h2 {
 /* line vertical */
 .line-vertical {
   border-left: 2px solid var(--text-title);
-  height: 500px;
+  height: 600px;
   display: inline-block;
   justify-content: center;
   align-items: center;
