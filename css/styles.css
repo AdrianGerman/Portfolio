@@ -379,4 +379,44 @@ h2 {
     margin-bottom: 20px;
     padding: 0;
   }
+
+  /* proyects */
+  .projects article {
+    width: 0;
+    display: inline-grid;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+
+  .project-img {
+    width: 400px;
+    height: 250px;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .projects article div:nth-child(2) {
+    padding: 20px;
+    background-color: var(--color-background-secondary);
+    border-radius: 0 0 15px 15px;
+  }
+
+  .container-projects div h3 {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .projects article div ul {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .container-projects a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-projects div p {
+    font-size: 16px;
+  }
 }
