@@ -350,4 +350,33 @@ h2 {
     width: 300px;
     height: 300px;
   }
+
+  /* about me */
+  .about-me {
+    display: grid;
+  }
+
+  .information {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+
+  .line-vertical {
+    display: none;
+  }
+
+  .skills {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .container-logos {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 100px 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+  }
 }
