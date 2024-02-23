@@ -51,8 +51,8 @@ body {
 
 .title-mini-h1 {
   font-family: var(--font-secondary);
-  font-weight: 400;
-  font-size: 26px;
+  font-weight: 700;
+  font-size: 18px;
   color: var(--text-second);
 }
 
@@ -63,6 +63,8 @@ body {
 .personal-buttons {
   margin-top: 40px;
   display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
 }
 
 .personal-buttons a {
