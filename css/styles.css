@@ -4,6 +4,7 @@
   --text-title: #ccd6f6;
   --text-second: #64ffda;
   --text-total: #8892b0;
+  --text-second-2: #00c4e1;
 
   --font-main: "Signika Negative", sans-serif;
   --font-secondary: "Fira Code", monospace;
@@ -171,6 +172,50 @@ h2 {
 
 .highlight {
   color: var(--text-second);
+}
+
+/* button lang */
+
+.header {
+  margin-top: 20px;
+  position: absolute;
+  display: flex;
+  align-items: end;
+}
+
+.button-52 {
+  color: var(--color-background-secondary);
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 2px solid var(--text-second);
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border-radius: 3px;
+}
+
+.button-52:after {
+  content: "";
+  background-color: var(--text-second-2);
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+  border-radius: 3px;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
 }
 
 /* line vertical */

@@ -8,6 +8,7 @@
     <meta name="description"
       content="Author: AdrianGerman, Con mucho cariño :3">
     <link rel="stylesheet" href="./css/styles.css" />
+    <script src="js/main.js"></script>
     <title>Adrian German</title>
     <link rel="icon" href="./img/favicon.ico" />
   </head>
@@ -17,12 +18,16 @@
     <div>
       <!-- presentation -->
       <div class="wrapper">
+        <div class="header">
+          <button class="button-52" role="button"
+            onclick="cambiarIdioma('en')">Ingles</button>
+        </div>
         <main class="main">
           <div>
-            <h1 class="title-mini-h1">Hi, my name is</h1>
+            <h1 class="title-mini-h1">Hola, mi nombre es</h1>
             <h1 class="title-h1">
               < Adrian German.<br />
-              Full stack software developer. />
+              Desarrollador full stack. />
             </h1>
             <div class="personal-buttons">
               <a href="https://www.linkedin.com/in/adrian-german/"
@@ -62,325 +67,323 @@
       <div id="about_me"></div>
 
       <div class="about-center-me">
-        <h1 class="title-h1"><span class="line-gradient">About me</span></h1>
-        <p>Here you will find more information about me, what I do and my
-          current skills mainly in terms <br> of programming and
-          technology.</p>
+        <h1 class="title-h1"><span class="line-gradient">Sobre mi</span></h1>
+        <p>Soy Lic. en Tecnologías de la Información</p>
       </div>
 
       <section class="about-me" id="about-me">
         <div class="information shade">
-          <h2><span class="line">Training</span></h2>
+          <h2><span class="line">Estudios</span></h2>
           <p>
-            Opted for a
-            <span class="highlight">Bachelor's degree in Information
-              Technologies</span>
-            at the
-            <span class="highlight">University of Guadalajara</span>, where I
-            acquired
-            extensive knowledge in programming and discovered my passion for
-            web
-            development, mobile
-            development, and graphic design. During a year-long internship at
-            a
-            learning technologies center within the university, a fresh
-            perspective was gained, and my love for <span
-              class="highlight">JavaScript and Python</span> was ignited.
-            Post-internship, I delved into independent studies through the
-            Platzi
-            program, refining skills in my favorite programming languages.
-          </p>
+            Opte por la
+            <span class="highlight">Licenciatura en tecnologías de la
+              información</span>
+            en la
+            <span class="highlight">Universidad de Guadalajara</span>,
+            donde adquirí amplios conocimientos en programación y descubrí mi
+            pasión por el desarrollo web, el desarrollo móvil y el diseño
+            gráfico.
+            Durante mi pasantía en las practicas profesionales, obtuve una nueva
+            perspectiva en el mundo laboral y le tome un cariño especial a
+            <span class="highlight">JavaScript y Python</span>.
+            Después de terminar la Licenciatura, profundicé en estudios
+            independientes a
+            través del programa Platzi, perfeccionando habilidades en mis
+            lenguajes de programación favoritos y obteniendo conocimientos en
+            varios lenguajes, frameworks, librerías, etc.
 
-          <img src="./img/cafecito.png" alt="cafe">
+            <img src="./img/cafecito.png" alt="cafe">
+          </div>
+
+          <div class="line-vertical"></div>
+
+          <!-- technologies -->
+          <div class="skills shade">
+            <h2><span class="line">Tecnologías</span></h2>
+            <div class="container-logos">
+
+              <div class="logos">
+                <img src="./img/icons/js.svg" alt="JavaScript" />
+                <p>JavaScript</p>
+              </div>
+
+              <div class="logos">
+                <img src="./img/icons/html.svg" alt="HTML" />
+                <p>HTML</p>
+              </div>
+
+              <div class="logos">
+                <img src="./img/icons/css.svg" alt="CSS" />
+                <p>CSS</p>
+              </div>
+
+              <div class="logos">
+                <img src="./img/icons/python.svg" alt="Python" />
+                <p>Python</p>
+              </div>
+
+              <div class="logos">
+                <img src="./img/icons/fastapi.svg" alt="FastAPI">
+                <p>FastAPI</p>
+              </div>
+
+              <div class="logos">
+                <img src="./img/icons/java.svg" alt="Java">
+                <p>Java</p>
+              </div>
+
+              <div class="logos">
+                <img src="./img/icons/react.svg" alt="React">
+                <p>React</p>
+              </div>
+
+              <div class="logos">
+                <img src="./img/icons/nextjs.svg" alt="Next.js">
+                <p>Next.js</p>
+              </div>
+
+              <div class="logos">
+                <img src="./img/icons/vuejs.svg" alt="Vue.js">
+                <p>Vue.js</p>
+              </div>
+
+              <div class="logos">
+                <img src="./img/icons/tailwindcss.svg" alt="Tailwind CSS">
+                <p>Tailwind CSS</p>
+              </div>
+
+              <div class="logos">
+                <img src="./img/icons/laravel.svg" alt="Laravel">
+                <p>Laravel</p>
+              </div>
+
+              <div class="logos">
+                <img src="./img/icons/php.svg" alt="PHP">
+                <p>PHP</p>
+              </div>
+
+              <div class="logos">
+                <img src="./img/icons/mysql.svg" alt="MySQL">
+                <p>MySQL</p>
+              </div>
+
+            </section>
+
+            <!-- projects -->
+            <section class="projects">
+
+              <div class="about-center-me">
+                <h1 class="title-h1"><span
+                    class="line-gradient">Proyectos</span></h1>
+                <p>Aquí encontrarás algunos de los proyectos personales
+                  realizados
+                  en
+                  mi carrera,<br>personalmente o en los cursos que he
+                  realizado.</p>
+              </div>
+
+              <div class="container-projects">
+
+                <!-- project 1 -->
+                <article>
+                  <a
+                    href="https://github.com/AdrianGerman/HeimMovies-JavaScript.git">
+                    <img src="./img/proyects/heim-movies.png" alt="heim-movies"
+                      class="project-img" />
+                  </a>
+
+                  <div class="description">
+                    <h3 class="line">HeimMovies</h3>
+                    <p>
+                      Using the API "TheMovieAPI" an application was created to
+                      view the daily trending movies, the movies that belong to
+                      each category, movie details, their category and similar
+                      movies and finally be able to add movies to favorites.
+                    </p>
+                    <div class="project-details">
+                      <div>
+                        <ul>
+                          <li>
+                            <img src="./img/icons/js.svg" alt="logo_js" />
+                            <p>JavaScript</p>
+                          </li>
+                          <li>
+                            <img src="./img/icons/html.svg" alt="logo_html" />
+                            <p>HTML</p>
+                          </li>
+                          <li>
+                            <img src="./img/icons/css.svg" alt="logo_css" />
+                            <p>CSS</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+
+                <!-- project 2 -->
+                <article>
+                  <a
+                    href="https://github.com/AdrianGerman/TODO-Machine-React.git">
+                    <img src="./img/proyects/task-machine.png"
+                      alt="TODO-Machine"
+                      class="project-img" />
+                  </a>
+
+                  <div class="description">
+                    <h3 class="line">Task Machine</h3>
+                    <p>
+                      Task site, in which you can create new pending tasks,
+                      edit them, mark them as finished or delete them, just as
+                      if
+                      you
+                      have many tasks you have a search engine to find the tasks
+                      you want to complete. This was my first React project
+                    </p>
+                    <div class="project-details">
+                      <div>
+                        <ul>
+                          <li>
+                            <img src="./img/icons/react.svg" alt="logo_react" />
+                            <p>React</p>
+                          </li>
+                          <li>
+                            <img src="./img/icons/html.svg" alt="logo_html" />
+                            <p>HTML</p>
+                          </li>
+                          <li>
+                            <img src="./img/icons/css.svg" alt="logo_css" />
+                            <p>CSS</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+
+                <!-- project 3 -->
+                <article>
+                  <a href="https://github.com/AdrianGerman/MyMovieFastAPI.git">
+                    <img src="./img/proyects/API-FastAPI.png"
+                      alt="fastapi-mymovie" class="project-img" />
+                  </a>
+
+                  <div class="description">
+                    <h3 class="line">My Movie FastAPI</h3>
+                    <p>
+                      Creation of a simple movies API, with different queries
+                      such as login, get movies, get movies by id, delete
+                      movies, update movies, create movies among many more, it
+                      is
+                      a fairly complete API.
+                    </p>
+                    <div class="project-details">
+                      <div>
+                        <ul>
+                          <li>
+                            <img src="./img/icons/python.svg"
+                              alt="logo_python" />
+                            <p>Python</p>
+                          </li>
+                          <li>
+                            <img src="./img/icons/fastapi.svg"
+                              alt="logo_fastAPI" />
+                            <p>FastAPI</p>
+                          </li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+
+                <!-- project 4 -->
+                <article>
+                  <a
+                    href="https://github.com/AdrianGerman/react-ecommerce-practice-taller.git">
+                    <img src="./img/proyects/nextjs-ecommerce.png"
+                      alt="react-ecommerce" class="project-img" />
+                  </a>
+
+                  <div class="description">
+                    <h3 class="line">Next.js ecommerce</h3>
+                    <p>
+                      An ecommerce made 100%, using the Shopify API for the most
+                      technical issues such as transactions when making
+                      payments,
+                      login verified by the API and products in stock.
+                    </p>
+                    <div class="project-details">
+                      <div>
+                        <ul>
+                          <li>
+                            <img src="./img/icons/react.svg" alt="logo_react" />
+                            <p>React</p>
+                          </li>
+                          <li>
+                            <img src="./img/icons/nextjs.svg" alt="logo_next" />
+                            <p>Next.js</p>
+                          </li>
+                          <li>
+                            <img src="./img/icons/tailwindcss.svg"
+                              alt="logo_tailwind" />
+                            <p>TailwindCSS</p>
+                          </li>
+
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+
+                <!-- project 5 -->
+                <article>
+                  <a href="https://github.com/AdrianGerman/topicos23a.git">
+                    <img src="./img/proyects/CRUD-Laravel.png"
+                      alt="crud-laravel"
+                      class="project-img" />
+                  </a>
+
+                  <div class="description">
+                    <h3 class="line">CRUD Larevel</h3>
+                    <p>
+                      Professional CRUD implemented based on a CREATIVE TIM
+                      template, using technologies such as artisan, MySQL
+                      databases and other technologies learned in the
+                      degree.
+                    </p>
+                    <div class="project-details">
+                      <div>
+                        <ul>
+                          <li>
+                            <img src="./img/icons/php.svg" alt="logo_php" />
+                            <p>PHP</p>
+                          </li>
+                          <li>
+                            <img src="./img/icons/laravel.svg"
+                              alt="logo_laravel" />
+                            <p>Laravel</p>
+                          </li>
+                          <li>
+                            <img src="./img/icons/mysql.svg" alt="logo_mysql" />
+                            <p>MySQL</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+
+                <!-- final projects -->
+              </div>
+            </section>
+
+            <!-- final-inicio -->
+            <footer class="footer">
+              <p>Designed with ♥ by AdrianGerman</p>
+            </footer>
+          </div>
         </div>
 
-        <div class="line-vertical"></div>
-
-        <!-- technologies -->
-        <div class="skills shade">
-          <h2><span class="line">Skills</span></h2>
-          <div class="container-logos">
-
-            <div class="logos">
-              <img src="./img/icons/js.svg" alt="JavaScript" />
-              <p>JavaScript</p>
-            </div>
-
-            <div class="logos">
-              <img src="./img/icons/html.svg" alt="HTML" />
-              <p>HTML</p>
-            </div>
-
-            <div class="logos">
-              <img src="./img/icons/css.svg" alt="CSS" />
-              <p>CSS</p>
-            </div>
-
-            <div class="logos">
-              <img src="./img/icons/python.svg" alt="Python" />
-              <p>Python</p>
-            </div>
-
-            <div class="logos">
-              <img src="./img/icons/fastapi.svg" alt="FastAPI">
-              <p>FastAPI</p>
-            </div>
-
-            <div class="logos">
-              <img src="./img/icons/java.svg" alt="Java">
-              <p>Java</p>
-            </div>
-
-            <div class="logos">
-              <img src="./img/icons/react.svg" alt="React">
-              <p>React</p>
-            </div>
-
-            <div class="logos">
-              <img src="./img/icons/nextjs.svg" alt="Next.js">
-              <p>Next.js</p>
-            </div>
-
-            <div class="logos">
-              <img src="./img/icons/vuejs.svg" alt="Vue.js">
-              <p>Vue.js</p>
-            </div>
-
-            <div class="logos">
-              <img src="./img/icons/tailwindcss.svg" alt="Tailwind CSS">
-              <p>Tailwind CSS</p>
-            </div>
-
-            <div class="logos">
-              <img src="./img/icons/laravel.svg" alt="Laravel">
-              <p>Laravel</p>
-            </div>
-
-            <div class="logos">
-              <img src="./img/icons/php.svg" alt="PHP">
-              <p>PHP</p>
-            </div>
-
-            <div class="logos">
-              <img src="./img/icons/mysql.svg" alt="MySQL">
-              <p>MySQL</p>
-            </div>
-
-          </section>
-
-          <!-- projects -->
-          <section class="projects">
-
-            <div class="about-center-me">
-              <h1 class="title-h1"><span
-                  class="line-gradient">Projects</span></h1>
-              <p>Here you will find some of the personal projects carried out
-                in
-                my career,<br> personally or in the courses I have taken.</p>
-            </div>
-
-            <div class="container-projects">
-
-              <!-- project 1 -->
-              <article>
-                <a
-                  href="https://github.com/AdrianGerman/HeimMovies-JavaScript.git">
-                  <img src="./img/proyects/heim-movies.png" alt="heim-movies"
-                    class="project-img" />
-                </a>
-
-                <div class="description">
-                  <h3 class="line">HeimMovies</h3>
-                  <p>
-                    Using the API "TheMovieAPI" an application was created to
-                    view the daily trending movies, the movies that belong to
-                    each category, movie details, their category and similar
-                    movies and finally be able to add movies to favorites.
-                  </p>
-                  <div class="project-details">
-                    <div>
-                      <ul>
-                        <li>
-                          <img src="./img/icons/js.svg" alt="logo_js" />
-                          <p>JavaScript</p>
-                        </li>
-                        <li>
-                          <img src="./img/icons/html.svg" alt="logo_html" />
-                          <p>HTML</p>
-                        </li>
-                        <li>
-                          <img src="./img/icons/css.svg" alt="logo_css" />
-                          <p>CSS</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </article>
-
-              <!-- project 2 -->
-              <article>
-                <a
-                  href="https://github.com/AdrianGerman/TODO-Machine-React.git">
-                  <img src="./img/proyects/task-machine.png"
-                    alt="TODO-Machine"
-                    class="project-img" />
-                </a>
-
-                <div class="description">
-                  <h3 class="line">Task Machine</h3>
-                  <p>
-                    Task site, in which you can create new pending tasks,
-                    edit them, mark them as finished or delete them, just as
-                    if
-                    you
-                    have many tasks you have a search engine to find the tasks
-                    you want to complete. This was my first React project
-                  </p>
-                  <div class="project-details">
-                    <div>
-                      <ul>
-                        <li>
-                          <img src="./img/icons/react.svg" alt="logo_react" />
-                          <p>React</p>
-                        </li>
-                        <li>
-                          <img src="./img/icons/html.svg" alt="logo_html" />
-                          <p>HTML</p>
-                        </li>
-                        <li>
-                          <img src="./img/icons/css.svg" alt="logo_css" />
-                          <p>CSS</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </article>
-
-              <!-- project 3 -->
-              <article>
-                <a href="https://github.com/AdrianGerman/MyMovieFastAPI.git">
-                  <img src="./img/proyects/API-FastAPI.png"
-                    alt="fastapi-mymovie" class="project-img" />
-                </a>
-
-                <div class="description">
-                  <h3 class="line">My Movie FastAPI</h3>
-                  <p>
-                    Creation of a simple movies API, with different queries
-                    such as login, get movies, get movies by id, delete
-                    movies, update movies, create movies among many more, it
-                    is
-                    a fairly complete API.
-                  </p>
-                  <div class="project-details">
-                    <div>
-                      <ul>
-                        <li>
-                          <img src="./img/icons/python.svg"
-                            alt="logo_python" />
-                          <p>Python</p>
-                        </li>
-                        <li>
-                          <img src="./img/icons/fastapi.svg"
-                            alt="logo_fastAPI" />
-                          <p>FastAPI</p>
-                        </li>
-
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </article>
-
-              <!-- project 4 -->
-              <article>
-                <a
-                  href="https://github.com/AdrianGerman/react-ecommerce-practice-taller.git">
-                  <img src="./img/proyects/nextjs-ecommerce.png"
-                    alt="react-ecommerce" class="project-img" />
-                </a>
-
-                <div class="description">
-                  <h3 class="line">Next.js ecommerce</h3>
-                  <p>
-                    An ecommerce made 100%, using the Shopify API for the most
-                    technical issues such as transactions when making
-                    payments,
-                    login verified by the API and products in stock.
-                  </p>
-                  <div class="project-details">
-                    <div>
-                      <ul>
-                        <li>
-                          <img src="./img/icons/react.svg" alt="logo_react" />
-                          <p>React</p>
-                        </li>
-                        <li>
-                          <img src="./img/icons/nextjs.svg" alt="logo_next" />
-                          <p>Next.js</p>
-                        </li>
-                        <li>
-                          <img src="./img/icons/tailwindcss.svg"
-                            alt="logo_tailwind" />
-                          <p>TailwindCSS</p>
-                        </li>
-
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </article>
-
-              <!-- project 5 -->
-              <article>
-                <a href="https://github.com/AdrianGerman/topicos23a.git">
-                  <img src="./img/proyects/CRUD-Laravel.png"
-                    alt="crud-laravel"
-                    class="project-img" />
-                </a>
-
-                <div class="description">
-                  <h3 class="line">CRUD Larevel</h3>
-                  <p>
-                    Professional CRUD implemented based on a CREATIVE TIM
-                    template, using technologies such as artisan, MySQL
-                    databases and other technologies learned in the
-                    degree.
-                  </p>
-                  <div class="project-details">
-                    <div>
-                      <ul>
-                        <li>
-                          <img src="./img/icons/php.svg" alt="logo_php" />
-                          <p>PHP</p>
-                        </li>
-                        <li>
-                          <img src="./img/icons/laravel.svg"
-                            alt="logo_laravel" />
-                          <p>Laravel</p>
-                        </li>
-                        <li>
-                          <img src="./img/icons/mysql.svg" alt="logo_mysql" />
-                          <p>MySQL</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </article>
-
-              <!-- final projects -->
-            </div>
-          </section>
-
-          <!-- final-inicio -->
-          <footer class="footer">
-            <p>Designed with ♥ by AdrianGerman</p>
-          </footer>
-        </div>
-      </div>
-
-    </body>
-  </htm>
+      </body>
+    </htm>
