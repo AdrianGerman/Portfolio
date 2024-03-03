@@ -124,6 +124,8 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: large;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .line {
@@ -425,6 +427,11 @@ h2 {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 0;
+  }
+
+  .about-center-me p {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   /* proyects */
