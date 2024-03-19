@@ -2,7 +2,7 @@
 
 :root {
   --text-title: #ccd6f6;
-  --text-second: #64ffda;
+  --text-second: #828df3;
   --text-total: #8892b0;
   --text-second-2: #00c4e1;
 
@@ -21,7 +21,7 @@
 
 html {
   background-color: var(--color-background);
-  color: #ccd6f6;
+  color: var(--text-title);
   font-family: var(--font-main);
   scroll-behavior: smooth;
 }
@@ -81,7 +81,7 @@ body {
 }
 
 .personal-buttons a svg {
-  fill: var(--text-total);
+  fill: var(--text-title);
 }
 
 .personal-buttons a svg:hover {
