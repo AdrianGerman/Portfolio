@@ -187,10 +187,9 @@ h2 {
 
 .header {
   margin-top: 20px;
-  /* position: relative; */
+  position: absolute;
   display: flex;
   justify-content: space-evenly;
-  margin-left: 69%;
 }
 
 .button-52 {
@@ -372,6 +371,8 @@ h2 {
   .main {
     display: grid;
     justify-content: center;
+    align-items: normal;
+    gap: 0px;
   }
 
   .title-mini-h1 {
@@ -395,17 +396,21 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 200px;
+    margin-bottom: 10px;
   }
 
   .me img {
-    width: 300px;
-    height: 300px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    /* border-radius: 15rem; */
   }
 
   .border-img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
   }
 
   /* about me */
@@ -456,6 +461,11 @@ h2 {
     border-radius: 15px 15px 0 0;
   }
 
+  .project-img:hover {
+    transform: translateY(0);
+    filter: blur(2px);
+  }
+
   .projects article div:nth-child(2) {
     padding: 20px;
     background-color: var(--color-background-secondary);
@@ -480,5 +490,21 @@ h2 {
 
   .container-projects div p {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .project-img {
+    width: 340px;
+    height: 230px;
+    border-radius: 15px 15px 0 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .project-img {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
   }
 }
