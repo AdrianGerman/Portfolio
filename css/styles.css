@@ -349,6 +349,23 @@ h2 {
   height: 20px;
 }
 
+.project-info {
+  border-top: 2px solid var(--text-total);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-info a {
+  text-decoration: none;
+  color: var(--text-title);
+}
+
+.project-info a img {
+  width: 25px;
+  height: 25px;
+}
+
 .footer {
   grid-area: l-f;
   font-family: var(--font-main);
